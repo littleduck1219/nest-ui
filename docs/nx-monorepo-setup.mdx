@@ -1,0 +1,157 @@
+---
+date: 2024-06-26
+title: 'NX를 사용한 Nest UI 모노레포 라이브러리 구축'
+desc: 'npm과 NX를 활용하여 모노레포 구조의 Nest UI 컴포넌트 라이브러리를 구축하는 과정'
+status: publish
+thumbnail: '/posts/nx-monorepo/thumbnail.png'
+---
+
+# NX를 사용한 Nest UI 모노레포 라이브러리 구축
+
+이 문서에서는 NX를 사용하여 모노레포 구조의 Nest UI 컴포넌트 라이브러리를 구축하는 과정을 설명합니다. 모노레포 구조를 통해 여러 패키지를 하나의 저장소에서 관리하면서 코드 공유와 버전 관리를 효율적으로 할 수 있습니다.
+
+## 개발 환경 및 사용 기술
+
+- npm (패키지 관리자)
+- NX (모노레포 도구)
+- TypeScript
+- React
+- SCSS (스타일링)
+- Vite (빌드 도구)
+
+## 프로젝트 초기 설정
+
+### 1. 프로젝트 생성 및 초기화
+
+먼저 새로운 프로젝트 디렉토리를 생성하고 npm을 초기화합니다:
+
+```bash
+# 프로젝트 디렉토리 생성
+mkdir nest-ui
+cd nest-ui
+
+# npm 초기화
+npm init -y
+```
+
+### 2. NX 및 필요한 의존성 설치
+
+NX와 React 관련 패키지를 설치합니다:
+
+```bash
+# NX 및 React 관련 의존성 설치
+npm install -D nx @nx/react
+```
+
+### 3. NX 워크스페이스 초기화
+
+NX 워크스페이스를 초기화합니다:
+
+```bash
+# NX 워크스페이스 초기화
+npx nx init
+```
+
+초기화 과정에서 `guided` 옵션을 선택하면 NX가 단계별로 설정 과정을 안내해줍니다.
+
+### 4. UI 라이브러리 생성
+
+NX를 사용하여 UI 라이브러리를 생성합니다:
+
+```bash
+# UI 라이브러리 생성
+npx nx g @nx/react:library ui --directory=packages/ui --importPath=@nest-ui/ui
+```
+
+이 명령어는 `packages/ui` 디렉토리에 UI 라이브러리를 생성하고, `@nest-ui/ui`로 임포트할 수 있도록 설정합니다.
+스타일시트 포맷을 선택하는 단계에서는 `scss`를 선택했습니다.
+
+## 컴포넌트 생성
+
+### 버튼 컴포넌트 생성
+
+UI 라이브러리에 버튼 컴포넌트를 추가합니다:
+
+```bash
+# 버튼 컴포넌트 생성
+npx nx g @nx/react:component button --project=ui --directory=lib/components/button --export
+```
+
+이 명령어는 다음 파일들을 생성합니다:
+
+- `packages/ui/src/lib/components/button/button.tsx` (컴포넌트 코드)
+- `packages/ui/src/lib/components/button/button.module.scss` (스타일)
+- `packages/ui/src/lib/components/button/button.spec.tsx` (테스트 코드)
+
+또한 `--export` 옵션을 통해 이 컴포넌트는 자동으로 라이브러리의 index.ts에 추가되어 외부에서 import할 수 있게 됩니다.
+
+## 프로젝트 구조
+
+현재 프로젝트의 구조는 다음과 같습니다:
+
+```
+nest-ui/
+├─ packages/
+│  ├─ ui/
+│  │  ├─ src/
+│  │  │  ├─ lib/
+│  │  │  │  ├─ components/
+│  │  │  │  │  ├─ button/
+│  │  │  │  │  │  ├─ button.tsx
+│  │  │  │  │  │  ├─ button.module.scss
+│  │  │  │  │  │  └─ button.spec.tsx
+│  │  │  │  ├─ ui.tsx
+│  │  │  │  └─ ui.module.scss
+│  │  │  └─ index.ts
+│  │  ├─ .babelrc
+│  │  ├─ eslint.config.mjs
+│  │  ├─ jest.config.ts
+│  │  ├─ project.json
+│  │  ├─ README.md
+│  │  ├─ tsconfig.json
+│  │  ├─ tsconfig.lib.json
+│  │  ├─ tsconfig.spec.json
+│  │  └─ vite.config.ts
+├─ .eslintrc.js
+├─ .gitignore
+├─ .prettierrc
+├─ nx.json
+├─ package.json
+├─ tsconfig.base.json
+└─ package-lock.json
+```
+
+## 빌드 및 테스트
+
+### 라이브러리 빌드
+
+UI 라이브러리를 빌드하려면:
+
+```bash
+npx nx build ui
+```
+
+### 테스트 실행
+
+테스트를 실행하려면:
+
+```bash
+npx nx test ui
+```
+
+## 다음 단계
+
+이제 기본적인 모노레포 UI 라이브러리가 구축되었습니다. 다음 단계로는:
+
+1. 더 많은 컴포넌트 추가 (Input, Card 등)
+2. 테마 시스템 구현
+3. 스토리북 통합
+4. 문서화
+
+각 단계는 필요에 따라 진행할 수 있으며, NX의 강력한 기능을 활용하여 효율적으로 개발할 수 있습니다.
+
+## 참고 사항
+
+- NX는 변경된 코드에 영향을 받는 부분만 빌드하고 테스트하는 기능을 제공합니다.
+- 각 컴포넌트는 독립적인 디렉토리에 있어 관리가 용이합니다.
+- 모노레포 구조를 통해 코드 재사용성을 높이고 일관된 개발 경험을 제공할 수 있습니다.
