@@ -1,10 +1,31 @@
+import React from 'react';
 import styles from './button.module.scss';
 
-export function Button() {
+export interface ButtonProps {
+  children: React.ReactNode; // 버튼내용
+  variant?: 'primary' | 'secondary' | 'outline'; // 버튼종류
+  size?: 'small' | 'medium' | 'large'; // 버튼크기
+  disabled?: boolean; // 활성화
+  isLoading?: boolean; // 로딩
+  onClick?: () => void;
+}
+
+export function Button({
+  children,
+  variant = 'primary',
+  size = 'medium',
+  disabled = false,
+  onClick,
+}: ButtonProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Button!</h1>
-    </div>
+    <button
+      className={`${styles.button} ${styles[variant]} ${styles[size]}`}
+      disabled={disabled}
+      onClick={onClick}
+      type="button"
+    >
+      {children}
+    </button>
   );
 }
 
