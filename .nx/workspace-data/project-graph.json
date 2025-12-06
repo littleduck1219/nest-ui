@@ -12991,7 +12991,47 @@
       },
       {
         "source": "nest-ui",
+        "target": "npm:@storybook/addon-essentials",
+        "type": "static"
+      },
+      {
+        "source": "nest-ui",
+        "target": "npm:@storybook/addon-interactions",
+        "type": "static"
+      },
+      {
+        "source": "nest-ui",
+        "target": "npm:@storybook/addon-links",
+        "type": "static"
+      },
+      {
+        "source": "nest-ui",
+        "target": "npm:@storybook/blocks",
+        "type": "static"
+      },
+      {
+        "source": "nest-ui",
+        "target": "npm:@storybook/builder-vite",
+        "type": "static"
+      },
+      {
+        "source": "nest-ui",
+        "target": "npm:@storybook/core-server",
+        "type": "static"
+      },
+      {
+        "source": "nest-ui",
         "target": "npm:@storybook/jest",
+        "type": "static"
+      },
+      {
+        "source": "nest-ui",
+        "target": "npm:@storybook/react",
+        "type": "static"
+      },
+      {
+        "source": "nest-ui",
+        "target": "npm:@storybook/react-vite",
         "type": "static"
       },
       {
@@ -31082,5 +31122,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1753612775371
+  "computedAt": 1765033953148
 }

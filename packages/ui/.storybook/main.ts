@@ -1,20 +1,10 @@
 import type { StorybookConfig } from '@storybook/react-vite';
 
 const config: StorybookConfig = {
-  stories: ['../src/lib/**/*.@(mdx|stories.@(js|jsx|ts|tsx))'],
-  addons: [],
-  framework: {
-    name: '@storybook/react-vite',
-    options: {
-      builder: {
-        viteConfigPath: 'vite.config.ts',
-      },
-    },
-  },
+  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  addons: ['@storybook/addon-essentials'],
+  framework: { name: '@storybook/react-vite', options: {} },
+  docs: { autodocs: 'tag' },
 };
 
 export default config;
-
-// To customize your Vite configuration you can use the viteFinal field.
-// Check https://storybook.js.org/docs/react/builders/vite#configuration
-// and https://nx.dev/recipes/storybook/custom-builder-configs

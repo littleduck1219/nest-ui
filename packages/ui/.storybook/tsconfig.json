@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.storybook.json",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "../src/**/*.stories.@(js|jsx|ts|tsx)",
+    "../src/**/*.mdx",
+    "./**/*"
+  ]
+}
