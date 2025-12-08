@@ -18,7 +18,12 @@ export default [
         'error',
         {
           enforceBuildableLibDependency: true,
-          allow: ['^.*/eslint(\\.base)?\\.config\\.[cm]?[jt]s$'],
+          allow: [
+            '^.*/eslint(\\.base)?\\.config\\.[cm]?[jt]s$',
+            // allow internal deep imports within the same project for button component re-exports
+            '^\\./lib/components/button/button$',
+            '^\\./components/button/button$',
+          ],
           depConstraints: [
             {
               sourceTag: '*',

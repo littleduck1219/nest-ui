@@ -15,9 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nest-ui/button": ["packages/button/src/index.ts"],
+      "@nest-ui/button": ["packages/ui/src/lib/components/button/index.ts"],
       "@nest-ui/themes": ["packages/themes/src/index.ts"],
-      "@nest-ui/ui": ["packages/ui/src/index.ts"]
+      "@nest-ui/ui": ["packages/ui/src/index.ts"],
+      "@nest-ui/ui/*": ["packages/ui/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1132,5 +1132,1559 @@
         "staticFilePath": "packages/ui/storybook-static"
       }
     }
+  },
+  "13952519087638824380": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "14813036422806239674": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "6208704030868401694": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "6830032437962665365": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "5780096399399056326": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "9960775578829887414": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "12820238219037701150": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "14895089215203643258": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "14474196992949581499": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "18317524975500613726": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "9632133294329244817": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "8271755843361345526": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "15888443432033695637": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "1871260105692004181": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "13306553118042045067": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "17725996652422868926": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "7784740002068038331": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "14826101384378569861": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "13459558862641627146": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "8033361188602264788": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "4351865469308370476": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "9892187749230136796": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "9927266280371653417": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "2629718283368469123": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "2054798196620160995": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "6839172348296784679": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "17629702915563642481": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "1412606556325415885": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "9205955817771174486": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "7694418403199454375": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "7113076414608141203": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "7965035332055672462": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "10694322660782154181": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "4265282199221497508": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "8531274246838342154": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "4468167538724663371": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
+  },
+  "1363256810119579577": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/ui"
+      },
+      "cache": true,
+      "outputs": [
+        "{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "continuous": true,
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/ui"
+      }
+    },
+    "static-storybook": {
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/ui/storybook-static"
+      }
+    }
   }
 }

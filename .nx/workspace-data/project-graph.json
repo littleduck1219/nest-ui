@@ -12904,6 +12904,11 @@
       },
       {
         "source": "ui",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "ui",
         "target": "npm:@testing-library/react",
         "type": "static"
       },
@@ -12929,6 +12934,11 @@
       }
     ],
     "nest-ui": [
+      {
+        "source": "nest-ui",
+        "target": "npm:react",
+        "type": "static"
+      },
       {
         "source": "nest-ui",
         "target": "npm:@nx/eslint-plugin",
@@ -13207,11 +13217,6 @@
       {
         "source": "nest-ui",
         "target": "npm:vitest",
-        "type": "static"
-      },
-      {
-        "source": "nest-ui",
-        "target": "npm:react",
         "type": "static"
       },
       {
@@ -31122,5 +31127,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1765033953148
+  "computedAt": 1765202728012
 }

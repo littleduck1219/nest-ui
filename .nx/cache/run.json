@@ -1,9 +1,21 @@
 {
   "run": {
-    "command": "nx run ui:storybook",
-    "startTime": "2025-12-06T14:51:16.352Z",
-    "endTime": "2025-12-06T14:51:18.537Z",
+    "command": "nx build ui --skip-nx-cache",
+    "startTime": "2025-12-08T13:21:49.799Z",
+    "endTime": "2025-12-08T13:21:54.294Z",
     "inner": false
   },
-  "tasks": []
+  "tasks": [
+    {
+      "taskId": "ui:build",
+      "target": "build",
+      "projectName": "ui",
+      "hash": "5620053331927628604",
+      "startTime": "2025-12-08T13:21:49.825Z",
+      "endTime": "2025-12-08T13:21:54.290Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
 }
